@@ -1,0 +1,169 @@
+.mainbox{
+    width: 100%;
+    height: 600px;
+    background-image: url(backgroundmain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcomenote{
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    justify-content: left;
+    align-items: first baseline;
+    margin: 30px;
+    margin-top: 50px;
+   
+    
+}
+#bookbutton{
+    width: 100px;
+    height: 60px;
+    align-items: center;
+    color: white;
+    background-color:rgb(0, 0, 0);
+    margin-top: 150px;
+    margin-left: 60px;
+    box-shadow: 10px 10px 20px whitesmoke;
+    border-radius: 20px;
+}
+#bookbutton :hover{
+    background-color: rgb(7, 6, 6);
+    color: rgb(255, 253, 253);
+    box-shadow: 10px 10px 40px rgb(136, 255, 57)
+    
+}
+@media(max-width:600px){
+    .mainbox{
+        width: 100%;
+        background-size: cover;
+        flex-direction: column;
+        height: 200vh;
+    }
+    
+}
+
+
+/* mainbox 2  */
+/* --------------------------------------------------------------------------------------------------------- */
+
+.slider-wrapper .imagelist {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 15px;
+    font-size: 0;
+    overflow-x: auto;
+}
+
+.slider-wrapper .imagelist .image-item{
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    
+
+}
+
+.mainbox2{
+    max-width: 1350px;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(48, 0, 0);
+    margin: 5px;
+}
+
+@media (max-width:600px){
+    .slider-wrapper .imagelist .image-item{
+        width: 200px;
+        height: 220px;
+    }
+.mainbox2{
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(48, 0, 0);
+    margin: 2px;
+    height: fit-content;
+    margin-left: 45px;
+}
+
+}
+
+/* ..............................mainbox5................................................................................ */
+
+.mainbox5{
+    width: 100%;
+    height: fit-content;
+    border: 2px solid rgb(77, 0, 0);
+    padding: 40px;
+    display: flex;
+    background-image: url(background\ of\ about.avif);
+    background-repeat: no repeat;
+}
+
+.contentofabout{
+width: 600px;
+height: fit-content;
+background-color: rgb(59, 0, 0);
+color: white;
+padding: 20px;
+border-radius: 30px;
+}
+
+.imagecontainer{
+    margin-top: 40px;
+    margin-left: 200px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid rgb(97, 3, 3);
+    border-radius: 130px;
+    padding: 5px;
+    box-shadow: 5px 5px 20px rgb(253, 26, 26);
+    
+    
+
+}
+
+
+#image{
+    border: rgb(85, 1, 1);
+    border-radius: 130px;
+    
+    width: 300px;
+    height: 200px;
+}
+
+@media (max-width: 600px){
+    .mainbox5{
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    #image{
+        
+        width: 200px;
+        height: 150px;
+    }
+    .imagecontainer{
+        margin-bottom: 30px;
+    }
+}
+
+/* ....................................mainbox6.................................................................... */
+
+.mainbox6{
+width: 100%;
+height: fit-content;
+
+}
+
+.logobox{
+    display: flex;
+    width: 100%;
+    height:fit-content ;
+    background-image: url(background\ of\ about.avif);
+    background-repeat: no-repeat;
+}
+
+

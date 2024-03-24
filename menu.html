@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW MENU</title>
+    <style>
+        #heading{
+            text-align: center;
+             font-size: 50px;
+              color: brown;
+        }
+        .container{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(56, 0, 0);
+        }
+        .box1{
+            width: 500px;
+            height: 300px;
+            margin-top: 20px;
+            box-shadow: 5px 5px 20px rgb(255, 255, 255);
+            
+        }
+        .box2{
+            margin-top: 30px;
+            width: 600px;
+            height: 500px;
+            box-shadow: 5px 5px 20px rgb(255, 255, 255);
+        }
+        #img1{
+          width: 500px;
+          height: 300px;
+        }
+        #img2{
+            width: 600px;
+            height: 500px;
+        }
+        @media(max-width:600px){
+            .container{
+                width: 100%;
+                height: fit-content;
+                background: none;
+                justify-content: left;
+            }
+            #img1{
+                width: 400px;
+                height: 300px;
+            }
+            #img2{
+                width: 400px;
+                height: 300px;
+                margin-left: 30px;
+            }
+            .box1{
+                box-shadow: 5px 5px 20px burlywood;
+                width: fit-content;
+                height: fit-content;
+            }
+            .box2{
+                box-shadow: 5px 5px 20px burlywood;
+                width: fit-content;
+                height: fit-content;
+            }
+            #heading{
+                text-align: left;
+                background-color: brown;
+                color: aliceblue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">MENU</h1>
+    <div class="container">
+        
+
+        <div class="box1">
+            <img id="img1" src="menu1.jpeg" alt="">
+        </div>
+        <div class="box2">
+            <img id="img2" width="600px" height="500px" src="menu2.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+</html>

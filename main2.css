@@ -1,0 +1,238 @@
+.mainbox3{
+    height: 100vh;
+    width: 100%;
+    border: solid 2px rgb(0, 0, 0);
+   background-image: url(background\ of\ about.avif);
+   background-repeat: no repeat;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bigcontainer1{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-top: 100px;
+
+}
+
+
+
+.container1{
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(59, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(192, 83, 83);
+    border: white 1px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+.container2{
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(58, 1, 1);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(192, 83, 83);
+    border: white 1px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.container3{
+    width: 400px;
+    height: 120px;
+    background-color: rgb(68, 0, 0);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(192, 83, 83);
+    border: white 1px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.bigcontainer2{
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        margin-top: 20px;
+}
+
+
+.container4{
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(58, 1, 1);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(192, 83, 83);
+    border: white 1px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.container5{
+    width: 400px;
+    height: 120px;
+    background-color: rgb(58, 1, 1);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(192, 83, 83);
+    border: white 1px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.container6{
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(58, 1, 1);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(192, 83, 83);
+    border: white 1px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 600px){
+    .mainbox3{
+        margin-top: 10px;
+        height: 170vh;
+    }
+    .bigcontainer1{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 90px;
+    }
+    .bigcontainer2{
+        flex-direction: column;  
+        justify-content: center; 
+        margin-top: 140px;
+    }
+    .container1{
+        margin-left: 80px;
+    }
+    .container2{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+    .container3{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+    .container4{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+    .container5{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+    .container6{
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+
+}
+
+
+/* .................................................................................................................... */
+                                            
+.mainbox4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(59, 1, 1);
+    flex-direction: column;
+}
+
+.bigcontainer3{
+    display: flex;
+  height: fit-content;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.container7{
+    
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+.container8{
+    
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+.container9{
+    
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+.bigcontainer4{
+    display: flex;
+  height: fit-content;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.container10{
+    
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+.container11{
+    
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+.container12{
+    
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+
+@media (max-width:600px){
+   .mainbox4{
+    height: 300vh;
+   }
+    .bigcontainer3{
+        flex-direction: column;
+        padding-left: 100px;
+        
+    }
+    .bigcontainer4{
+        flex-direction: column;
+        padding-left: 100px;
+
+    }
+}
+@media (max-width:950px){
+   .mainbox4{
+    height: 160vh;
+   }
+}
+
+
+
+
+
+
+

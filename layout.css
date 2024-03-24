@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7fr 2fr;
+
+}
+
+header{
+   border: solid rgb(255, 255, 255) 1px; 
+   background-color: black;
+}
+main{
+    border: solid 1px rgb(255, 255, 255);
+}
+footer{
+    border: solid 1px rgb(12, 11, 11);
+    
+}
+
+@media (max-width:600px){
+    header{
+        height: 140vh;
+    }
+}

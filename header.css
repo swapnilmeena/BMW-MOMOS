@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.headerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.heading{
+ text-align: left;
+ color: white;
+ font-size: 40px;
+
+}
+.home{
+ text-align: right;
+ margin-left: 380px;
+}
+.about{
+ text-align: right;
+ margin-left: 40px;
+}
+.challenges{
+ text-align: right;
+ margin-left: 40px;
+}
+.contact{ 
+text-align: right;
+margin-left: 40px;
+}
+.menu{ 
+    text-align: right;
+    margin-left: 40px;
+    }
+
+@media(max-width: 600px){
+    .headerbox{
+        flex-direction: column;
+         width: 60%;
+        background-size: cover;
+        height: 140vh;
+    }
+}
+@media(max-width:600px){
+    .home{
+        margin: 50px;
+    }
+}
+@media(max-width:600px){
+    .about{
+        margin: 50px;
+    }
+}
+@media(max-width:600px){
+    .challenges{
+        margin: 50px;
+    }
+}
+@media(max-width:600px){
+    .contact{
+        margin: 50px;
+    }
+}
+@media(max-width:600px){
+    .menu{
+        margin: 50px;
+    }
+
+}
+
+#button1:hover{
+    background-color: rgb(100, 91, 91);
+    color: white;
+    transform: scale(1.1);
+}
+
+#button2:hover{
+    background-color:rgb(100, 91, 91);
+    color: white;
+}
+
+
+#button3:hover{
+    background-color:rgb(100, 91, 91);
+    color: white;
+}
+
+#button4:hover{
+    background-color:rgb(100, 91, 91);
+    color: white;
+}
+
+
+#button5:hover{
+    background-color:rgb(100, 91, 91);
+    color: white;
+}
